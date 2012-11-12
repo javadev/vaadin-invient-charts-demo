@@ -24,7 +24,7 @@ public class InvientChartsDemoApp extends Application implements
 
     @Override
     public void init() {
-        mainWindow = new InvientChartsDemoBar();
+        mainWindow = new InvientChartsDemoWin();
         setMainWindow(mainWindow);
         getMainWindow().showNotification(
                 "To hide a series, click on its legend label.");
